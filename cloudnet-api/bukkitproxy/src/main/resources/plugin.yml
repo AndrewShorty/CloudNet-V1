@@ -1,0 +1,10 @@
+name: CloudNet-API
+version: 1.0.3
+author: Dytanic (BungeeCloud)
+
+website: http://Dytanic.de
+main: de.dytanic.cloudnet.bukkitproxy.CloudNetGamePlugin
+
+commands:
+  removesign:
+  resource:

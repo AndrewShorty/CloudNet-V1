@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>de.dytanic.cloudnet</groupId>
+    <artifactId>cloudnet</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>CloudNet-Parent</name>
+    <url>http://cloudnet.dytanic.de</url>
+    <description>The Ultimate Management Software for Minecraft Networks</description>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.targetEncoding>UTF-8</project.build.targetEncoding>
+        <service.version>1.0.50</service.version>
+        <service.type>RELEASE</service.type>
+    </properties>
+
+    <developers>
+        <developer>
+            <id>Dytanic</id>
+            <name>Tarek</name>
+        </developer>
+    </developers>
+
+    <modules>
+        <module>cloudnet-lib</module>
+        <module>cloudnet-proxy</module>
+        <module>cloudnet-server</module>
+        <module>cloudnet-api</module>
+        <module>cloudnet-installer</module>
+        <module>cloudnet-log</module>
+        <module>cloudnet-tools-parent</module>
+    </modules>
+
+    <!--
+<distributionManagement>
+    <snapshotRepository>
+        <id>nexus-snapshots</id>
+        <url>http://217.182.249.14:8081/nexus/content/repositories/snapshots</url>
+    </snapshotRepository>
+</distributionManagement>
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-deploy-plugin</artifactId>
+            <configuration>
+                <skip>true</skip>
+            </configuration>
+        </plugin>
+        <plugin>
+            <groupId>org.sonatype.plugins</groupId>
+            <artifactId>nexus-staging-maven-plugin</artifactId>
+            <executions>
+                <execution>
+                    <id>default-deploy</id>
+                    <phase>deploy</phase>
+                    <goals>
+                        <goal>deploy</goal>
+                    </goals>
+                </execution>
+            </executions>
+            <configuration>
+                <serverId>nexus</serverId>
+                <nexusUrl>http://217.182.249.14:8081/nexus/</nexusUrl>
+            </configuration>
+        </plugin>
+        <plugin>
+            <groupId>org.sonatype.plugins</groupId>
+            <artifactId>nexus-staging-maven-plugin</artifactId>
+            <version>1.6.3</version>
+            <extensions>true</extensions>
+            <configuration>
+                <serverId>nexus-releases</serverId>
+                <nexusUrl>http://217.182.249.14:8081/nexus/</nexusUrl>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+-->
+
+</project>

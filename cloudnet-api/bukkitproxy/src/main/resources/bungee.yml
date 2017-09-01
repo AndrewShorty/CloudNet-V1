@@ -1,0 +1,5 @@
+name: CloudNet-API
+version: 1.0.3
+author: Dytanic
+
+main: de.dytanic.cloudnet.bukkitproxy.CloudNetProxyPlugin

@@ -1,0 +1,6 @@
+name: CloudNet-ChatPlugin
+version: 1.0-SNAPSHOT
+author: Dytanic
+website: http://dytanic.de
+
+main: de.dytanic.cloudnet.chat.ChatPlugin
