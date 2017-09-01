@@ -44,16 +44,6 @@
         </dependency>
     </dependencies>
 
-    <!--
-    <distributionManagement>
-        <snapshotRepository>
-            <id>CloudNet-Server</id>
-            <name>CloudNet-Server</name>
-            <url>http://217.182.249.14:8081/repository/CloudNet-Server/</url>
-        </snapshotRepository>
-    </distributionManagement>
-    -->
-
     <build>
         <finalName>CloudNet-Server</finalName>
         <plugins>

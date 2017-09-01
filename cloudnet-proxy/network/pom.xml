@@ -38,16 +38,6 @@
         </dependency>
     </dependencies>
 
-    <!--
-    <distributionManagement>
-        <snapshotRepository>
-            <id>CloudNet-Proxy</id>
-            <name>CloudNet-Proxy</name>
-            <url>http://217.182.249.14:8081/repository/CloudNet-Proxy/</url>
-        </snapshotRepository>
-    </distributionManagement>
-    -->
-
     <build>
         <finalName>CloudNet-Proxy</finalName>
 
